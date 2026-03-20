@@ -1,0 +1,173 @@
+
+* {
+  --n-pink: 255, 143, 177; /* main pink */
+  --pink: rgba(255, 143, 177, 0.8);
+  --light-pink: rgba(255, 182, 193, 0.8);
+  --blush: rgba(255, 209, 220, 0.8);
+  --lavender: rgba(230, 204, 255, 0.8);
+
+  --main-color: var(--n-pink);
+}
+
+/* RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* TYPOGRAPHY */
+.heading-primary {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.heading-sec__main::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: rgba(var(--main-color), 1);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+/* BUTTONS */
+.btn {
+  background: #fff;
+  color: #333;
+  border-radius: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 143, 177, 0.3);
+}
+
+.btn--theme {
+  background: rgba(var(--main-color), 1);
+  color: #fff;
+}
+
+.btn--theme-inv {
+  border: 2px solid rgba(var(--main-color), 1);
+  color: rgba(var(--main-color), 1);
+}
+
+/* HERO SECTION */
+.home-hero {
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(255, 143, 177, 0.8),
+    rgba(255, 182, 193, 0.8)
+  ), url(../../assets/svg/common-bg.svg);
+  background-position: center;
+  height: 100vh;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header {
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(255, 143, 177, 0.15);
+}
+
+.header__logo-img-cont {
+  background: rgba(var(--main-color), 1);
+  border-radius: 50%;
+}
+
+.header__link:hover {
+  color: rgba(var(--main-color), 1);
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+.about {
+  background: #fff5f8;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+.projects__row-content-title {
+  color: #333;
+}
+
+.projects__row-content-desc {
+  color: #777;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+.contact {
+  background: linear-gradient(
+    to right,
+    rgba(255, 143, 177, 0.8),
+    rgba(230, 204, 255, 0.8)
+  ), url(../../assets/svg/common-bg.svg);
+}
+
+/* =========================
+   FOOTER
+========================= */
+.main-footer {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+/* =========================
+   SKILLS TAGS 
+========================= */
+.skills__skill {
+  background: rgba(255, 182, 193, 0.2);
+  color: #555;
+  border-radius: 20px;
+}
+
+/* =========================
+   SMALL UI TOUCHES 
+========================= */
+a:hover {
+  color: rgba(var(--main-color), 1);
+}
+
+.header__logo-container:hover {
+  color: rgba(var(--main-color), 1);
+}
+
+/* Soft scroll indicator */
+.mouse {
+  border: 2px solid #fff;
+}
+
+.mouse::before {
+  background-color: #fff;
+}

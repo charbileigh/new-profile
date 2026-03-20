@@ -1,0 +1,54 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'>
+  <defs>
+    <!-- Soft gradient background -->
+    <linearGradient id='a' x1='0' x2='1' y1='0' y2='1'>
+      <stop offset='0%' stop-color='#ffe4ec'/>
+      <stop offset='50%' stop-color='#ffd6e8'/>
+      <stop offset='100%' stop-color='#f3d9ff'/>
+    </linearGradient>
+
+    <!-- Pattern -->
+    <pattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' viewBox='0 0 1080 900'>
+      <g fill-opacity='0.4'>
+        <!-- Row 1 -->
+        <polygon fill='#ffb6c1' points='90 150 0 300 180 300'/>
+        <polygon fill='#ffc0cb' points='90 150 180 0 0 0'/>
+        <polygon fill='#ffd1dc' points='270 150 360 0 180 0'/>
+        <polygon fill='#ffe4e1' points='450 150 360 300 540 300'/>
+        <polygon fill='#ffc0cb' points='450 150 540 0 360 0'/>
+
+        <!-- Row 2 -->
+        <polygon fill='#e6ccff' points='630 150 540 300 720 300'/>
+        <polygon fill='#f3d9ff' points='630 150 720 0 540 0'/>
+        <polygon fill='#ffb6c1' points='810 150 720 300 900 300'/>
+        <polygon fill='#ffe4ec' points='810 150 900 0 720 0'/>
+        <polygon fill='#ffd6e8' points='990 150 900 300 1080 300'/>
+
+        <!-- Row 3 -->
+        <polygon fill='#ffc0cb' points='90 450 0 600 180 600'/>
+        <polygon fill='#ffe4ec' points='90 450 180 300 0 300'/>
+        <polygon fill='#e6ccff' points='270 450 180 600 360 600'/>
+        <polygon fill='#ffd6e8' points='270 450 360 300 180 300'/>
+        <polygon fill='#f3d9ff' points='450 450 360 600 540 600'/>
+
+        <!-- Row 4 -->
+        <polygon fill='#ffc0cb' points='630 450 540 600 720 600'/>
+        <polygon fill='#ffe4e1' points='630 450 720 300 540 300'/>
+        <polygon fill='#ffd6e8' points='810 450 720 600 900 600'/>
+        <polygon fill='#e6ccff' points='810 450 900 300 720 300'/>
+        <polygon fill='#ffb6c1' points='990 450 900 600 1080 600'/>
+
+        <!-- Bottom -->
+        <polygon fill='#f3d9ff' points='90 750 0 900 180 900'/>
+        <polygon fill='#ffd6e8' points='270 750 180 900 360 900'/>
+        <polygon fill='#ffc0cb' points='450 750 540 600 360 600'/>
+        <polygon fill='#ffe4ec' points='630 750 540 900 720 900'/>
+        <polygon fill='#e6ccff' points='810 750 720 900 900 900'/>
+        <polygon fill='#ffb6c1' points='990 750 900 900 1080 900'/>
+      </g>
+    </pattern>
+  </defs>
+
+  <rect width='100%' height='100%' fill='url(#a)'/>
+  <rect width='100%' height='100%' fill='url(#b)'/>
+</svg>
