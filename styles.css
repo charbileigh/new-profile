@@ -89,9 +89,7 @@ body {
   height: 100vh;
 }
 
-/* =========================
-   HEADER
-========================= */
+/* HEADER */
 .header {
   background: #fff;
   box-shadow: 0 10px 40px rgba(255, 143, 177, 0.15);
@@ -106,16 +104,12 @@ body {
   color: rgba(var(--main-color), 1);
 }
 
-/* =========================
-   ABOUT SECTION
-========================= */
+/* ABOUT SECTION */
 .about {
   background: #fff5f8;
 }
 
-/* =========================
-   PROJECTS
-========================= */
+/* PROJECTS */
 .projects__row-content-title {
   color: #333;
 }
@@ -124,9 +118,7 @@ body {
   color: #777;
 }
 
-/* =========================
-   CONTACT SECTION
-========================= */
+/* CONTACT SECTION */
 .contact {
   background: linear-gradient(
     to right,
@@ -135,26 +127,20 @@ body {
   ), url(../../assets/svg/common-bg.svg);
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 .main-footer {
   background: #2a2a2a;
   color: #fff;
 }
 
-/* =========================
-   SKILLS TAGS 
-========================= */
+/* SKILLS TAGS  */
 .skills__skill {
   background: rgba(255, 182, 193, 0.2);
   color: #555;
   border-radius: 20px;
 }
 
-/* =========================
-   SMALL UI TOUCHES 
-========================= */
+/* SMALL UI TOUCHES  */
 a:hover {
   color: rgba(var(--main-color), 1);
 }
