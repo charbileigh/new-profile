@@ -291,6 +291,7 @@ textarea {
   .projects__row-img {
     width: 100%;
     display: block;
+    border-radius: 8%;
     object-fit: cover; }
   .projects__row-content {
     padding: 2rem 0;
